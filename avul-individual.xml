@@ -1,0 +1,892 @@
+<TXLife xmlns="http://ACORD.org/Standards/Life/2">
+    <TXLifeRequest>
+        <TransRefGUID>9a8adefe-5374-413e-930e-316ae8e49cfe</TransRefGUID>
+        <TransType tc="191">Generic Data Transfer Transaction</TransType>
+        <TransSubType tc="1012319101">Illustration Application Data Transfer Transaction</TransSubType>
+        <TransExeDate>[[TransExeDate]]</TransExeDate>
+        <TransExeTime>[[TransExeTime]]</TransExeTime>
+        <OLifE>
+            <SourceInfo>
+                <SourceInfoName>WELIS</SourceInfoName>
+                <SourceInfoDescription>ILLUSTRATION_APPLICATION_DATA</SourceInfoDescription>
+            </SourceInfo>
+            <Holding id="Holding_1">
+                <HoldingTypeCode tc="2">Policy</HoldingTypeCode>
+                <Policy id="Policy_1">
+                    <ProductType tc="4">Variable Universal Life</ProductType>
+                    <ProductCode>AVUL24-GP</ProductCode>
+                    <CarrierCode>02</CarrierCode>
+                    <PlanName>Accumulation Variable Universal Life</PlanName>
+					<EffDate>2026-02-03</EffDate>
+                    <PaymentMode tc="1">Annual</PaymentMode>
+                    <PaymentAmt>16055</PaymentAmt>
+                    <PaymentMethod tc="2">Regular Billing</PaymentMethod>
+					<IssueType tc="3">Guaranteed Issue</IssueType>
+                    <Life>
+                        <QualPlanType tc="1">Non-Qualified</QualPlanType>
+                        <InitialPremAmt>21055</InitialPremAmt>
+						<TargetPremAmt>24996</TargetPremAmt>
+						<Coverage id="Coverage_1">
+                            <PlanName>Accumulation Variable Universal Life</PlanName>
+                            <ProductCode>AVUL24-GP</ProductCode>
+                            <IndicatorCode tc="1">Base</IndicatorCode>
+							<LifeCovTypeCode tc="11">Variable Universal Life</LifeCovTypeCode>
+                            <DeathBenefitOptType tc="1">Level (DB = Face)</DeathBenefitOptType>
+                            <CurrentAmt>500000</CurrentAmt>
+                            <CovOption id="CovOption_1" LifeParticipantRefID="Coverage_1_LifeParticipant_1">
+                                <PlanName>Overloan Protection Benefit Rider</PlanName>
+                                <ProductCode>OLP</ProductCode>
+                            </CovOption>
+                            <CovOption id="CovOption_2" LifeParticipantRefID="Coverage_1_LifeParticipant_1">
+                                <PlanName>Early Surrender Value Rider</PlanName>
+                                <ProductCode>ESVR</ProductCode>
+                            </CovOption>
+							<CovOption id="CovOption_3" LifeParticipantRefID="Coverage_1_LifeParticipant_1">
+                                <PlanName>Cash Value Enhancement Rider</PlanName>
+                                <ProductCode>CVE2</ProductCode>
+                            </CovOption>
+                            <LifeParticipant id="Coverage_1_LifeParticipant_1" PartyID="Insured_1">
+                                <ParticipantName></ParticipantName>
+                                <LifeParticipantRoleCode tc="1">Primary Insured</LifeParticipantRoleCode>
+                                <IssueGender tc="1">Male</IssueGender>
+								<SmokerStat tc="1">Never used tobacco in any form</SmokerStat>
+                            </LifeParticipant>
+                            <OLifEExtension VendorCode="123" ExtensionCode="Coverage">
+                                <CoverageExtension>
+                                    <UnisexInd tc="0">False</UnisexInd>
+                                </CoverageExtension>
+                            </OLifEExtension>
+                        </Coverage>
+                        <Coverage id="Coverage_2">
+                            <PlanName>Supplemental Term Insurance Rider</PlanName>
+                            <ProductCode>ITR</ProductCode>
+                            <IndicatorCode tc="2">Rider</IndicatorCode>
+                            <CurrentAmt>500000</CurrentAmt>
+                            <LifeParticipant id="Coverage_2_LifeParticipant_1" PartyID="Insured_1">
+                                <ParticipantName></ParticipantName>
+                                <LifeParticipantRoleCode tc="1">Primary Insured</LifeParticipantRoleCode>
+                                <IssueGender tc="1">Male</IssueGender>
+                            </LifeParticipant>
+                        </Coverage>
+                        <Coverage id="Inherent_Rider_1">
+                            <PlanName>Supplemental Exchange Rider</PlanName>
+                            <ProductCode>1VSEAR</ProductCode>
+                            <IndicatorCode tc="2">Rider</IndicatorCode>
+                            <CurrentAmt>0</CurrentAmt>
+                            <LifeParticipant id="Inherent_Rider_2_LifeParticipant_1" PartyID="Insured_1">
+                                <ParticipantName></ParticipantName>
+                                <LifeParticipantRoleCode tc="1">Primary Insured</LifeParticipantRoleCode>
+                                <IssueGender tc="1">Male</IssueGender>
+                            </LifeParticipant>
+                        </Coverage>
+                        <LifeUSA>
+                            <DefLifeInsMethod tc="4">DEFRA Guideline Premium Test</DefLifeInsMethod>
+							<MECInd tc="0">False</MECInd>
+							<Exchange1035Ind tc="0">False</Exchange1035Ind>
+							<Amount1035>5000</Amount1035>
+                            <Basis1035>3500</Basis1035>
+                            <MEC1035 tc="1">True</MEC1035>
+                            <Loan1035>0</Loan1035>
+							<GuidelineAnnPrem>29407.53</GuidelineAnnPrem>
+                            <GuidelineSinglePrem>413226.02</GuidelineSinglePrem>
+                            <SevenPayPrem>86993.3</SevenPayPrem>
+                            <OLifEExtension VendorCode="123" ExtensionCode="LifeUSA">
+                                <LifeUSAExtension DataRep="Full">
+                                    <Rate77027Pay>2.0000</Rate77027Pay>
+                                    <Rate7702GSP>4.0000</Rate7702GSP>
+                                    <Rate7702GLP>2.0000</Rate7702GLP>
+                                </LifeUSAExtension>
+                            </OLifEExtension>
+                        </LifeUSA>
+                    </Life>
+                    <ApplicationInfo>
+                        <ApplicationJurisdiction tc="45">Pennsylvania</ApplicationJurisdiction>
+                        <ReplacementInd tc="0">False</ReplacementInd>
+                        <OLifEExtension VendorCode="123" ExtensionCode="ApplicationInfo">
+                            <ApplicationInfoExtension>
+							    <SalesConceptsCC>
+                                    <SalesConceptsTC tc="1012300001">Ledger</SalesConceptsTC>
+                                </SalesConceptsCC>
+                                <TotalInitCovAmt>1000000</TotalInitCovAmt>
+                                <IllustrationUniqueID>[[CaseID]]</IllustrationUniqueID>
+                                <IllustrationRunDate>2026-02-03</IllustrationRunDate>
+								<DCAInd tc="1">True</DCAInd>
+								<AARInd tc="1">True</AARInd>
+								<MthlyAllocInd tc="0">False</MthlyAllocInd>
+                            </ApplicationInfoExtension>
+                        </OLifEExtension>
+                    </ApplicationInfo>
+                    <OLifEExtension VendorCode="123" ExtensionCode="Policy">
+                        <PolicyExtension>
+                            <BillingOption tc="3">Mandatory</BillingOption>
+                            <AddlLumpSumAmt>5000</AddlLumpSumAmt>
+                            <NumberOfMonths>012</NumberOfMonths>
+                            <PolicyUWAmount>1000000</PolicyUWAmount>
+                            <MinPremiumInitialAmt>638</MinPremiumInitialAmt>
+                            <IllusMinPremiumInitialAmt>638</IllusMinPremiumInitialAmt>
+                            <StateReplacementInfo>
+                                <AR_Insurer />
+                                <AR_ProductType />
+                                <AR_ProductName />
+                                <AR_ProposedPremium />
+                                <AR_AnnualConsideration />
+                                <AR_CurrentCV />
+                                <AR_CurrentSV />
+                                <AR_Face />
+                                <AR_CurrInt />
+                                <AR_GuarMinAccum />
+                                <AR_SurrChgPeriod />
+                                <AR_FreeWithdrawals />
+                                <WA_After />
+                                <WA_HowLong />
+                                <WA_HowMuch />
+                                <WA_Rate />
+                                <WA_Limit />
+                                <WA_SurrChg />
+                                <WA_DeathBen />
+                                <WY_SurrCharges />
+                            </StateReplacementInfo>
+							<GroupPolicyKey>P111111</GroupPolicyKey>
+                        </PolicyExtension>
+                    </OLifEExtension>
+                </Policy>
+				<Investment>
+                    <SubAccount>
+                        <ProductCode>VI</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>Total Stock Market Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VM</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>Total Bond Market Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VL</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>Mid-Cap Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VN</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>Global Bond Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VO</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>Total International Stock Market Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VJ</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>Equity Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VT</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>Conservative Allocation</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VW</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>Moderate Allocation</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VY</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>Balanced</ProductFullName>
+						<AdviserName>Wellington Management Company LLP</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WG</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>Capital Growth</ProductFullName>
+						<AdviserName>PRIMECAP Management Company</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WD</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>Diversified Value</ProductFullName>
+						<AdviserName>Hotchkis and Wiley Capital Management, LLC, Aristotle Capital Management, LLC and Harris Associates L.P.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WF</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>Equity Income</ProductFullName>
+						<AdviserName>Wellington Management Company LLP and The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WI</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>Growth</ProductFullName>
+						<AdviserName>Wellington Management Company LLP</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WB</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>High Yield Bond</ProductFullName>
+						<AdviserName>Wellington Management Company LLP and The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WJ</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>International</ProductFullName>
+						<AdviserName>Baillie Gi&#64256;ord Overseas Ltd. and Schroder Investment Management North America Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WC</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>Real Estate Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WE</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>Small Company Growth</ProductFullName>
+						<AdviserName>ArrowMark Colorado Holdings LLC and The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VF</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>Short-Term Fixed Account</ProductFullName>
+						<AdviserName>The Penn Insurance and Annuity Company</AdviserName>
+                        <BaseRate>2.25</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>F1</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>Traditional Fixed Account</ProductFullName>
+						<AdviserName>The Penn Insurance and Annuity Company</AdviserName>
+                        <BaseRate>3.50</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>F3</ProductCode>
+                        <AllocPercent>100</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>12-Month DCA Account</ProductFullName>
+						<AdviserName>The Penn Insurance and Annuity Company</AdviserName>
+                        <BaseRate>4.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>SA</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>Classic 0% Floor S&amp;P 500 Indexed Account</ProductFullName>
+						<AdviserName>The Penn Insurance and Annuity Company</AdviserName>
+                        <BaseRate>8.38</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>UA</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>High Cap S&amp;P 500 Indexed Account</ProductFullName>
+						<AdviserName>The Penn Insurance and Annuity Company</AdviserName>
+                        <BaseRate>8.38</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>XA</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+						<ProductFullName>Uncapped S&amp;P 500 Indexed Account (Limited by Participation Rate)</ProductFullName>
+						<AdviserName>The Penn Insurance and Annuity Company</AdviserName>
+                        <BaseRate>8.38</BaseRate>
+                    </SubAccount>
+                    <SubAccount>
+                        <ProductCode>VI</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="A">Dollar Cost Averaging</SubAccountType>
+						<ProductFullName>Total Stock Market Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VM</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="A">Dollar Cost Averaging</SubAccountType>
+						<ProductFullName>Total Bond Market Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VL</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="A">Dollar Cost Averaging</SubAccountType>
+						<ProductFullName>Mid-Cap Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VN</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="A">Dollar Cost Averaging</SubAccountType>
+						<ProductFullName>Global Bond Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VO</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="A">Dollar Cost Averaging</SubAccountType>
+						<ProductFullName>Total International Stock Market Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VJ</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="A">Dollar Cost Averaging</SubAccountType>
+						<ProductFullName>Equity Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VT</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="A">Dollar Cost Averaging</SubAccountType>
+						<ProductFullName>Conservative Allocation</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VW</ProductCode>
+                        <AllocPercent>50</AllocPercent>
+                        <SubAccountType tc="A">Dollar Cost Averaging</SubAccountType>
+						<ProductFullName>Moderate Allocation</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VY</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="A">Dollar Cost Averaging</SubAccountType>
+						<ProductFullName>Balanced</ProductFullName>
+						<AdviserName>Wellington Management Company LLP</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WG</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="A">Dollar Cost Averaging</SubAccountType>
+						<ProductFullName>Capital Growth</ProductFullName>
+						<AdviserName>PRIMECAP Management Company</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WD</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="A">Dollar Cost Averaging</SubAccountType>
+						<ProductFullName>Diversified Value</ProductFullName>
+						<AdviserName>Hotchkis and Wiley Capital Management, LLC, Aristotle Capital Management, LLC and Harris Associates L.P.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WF</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="A">Dollar Cost Averaging</SubAccountType>
+						<ProductFullName>Equity Income</ProductFullName>
+						<AdviserName>Wellington Management Company LLP and The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WI</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="A">Dollar Cost Averaging</SubAccountType>
+						<ProductFullName>Growth</ProductFullName>
+						<AdviserName>Wellington Management Company LLP</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WB</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="A">Dollar Cost Averaging</SubAccountType>
+						<ProductFullName>High Yield Bond</ProductFullName>
+						<AdviserName>Wellington Management Company LLP and The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WJ</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="A">Dollar Cost Averaging</SubAccountType>
+						<ProductFullName>International</ProductFullName>
+						<AdviserName>Baillie Gi&#64256;ord Overseas Ltd. and Schroder Investment Management North America Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WC</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="A">Dollar Cost Averaging</SubAccountType>
+						<ProductFullName>Real Estate Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WE</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="A">Dollar Cost Averaging</SubAccountType>
+						<ProductFullName>Small Company Growth</ProductFullName>
+						<AdviserName>ArrowMark Colorado Holdings LLC and The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>SA</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="A">Dollar Cost Averaging</SubAccountType>
+						<ProductFullName>Classic 0% Floor S&amp;P 500 Indexed Account</ProductFullName>
+						<AdviserName>The Penn Insurance and Annuity Company</AdviserName>
+                        <BaseRate>8.38</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>UA</ProductCode>
+                        <AllocPercent>50</AllocPercent>
+                        <SubAccountType tc="A">Dollar Cost Averaging</SubAccountType>
+						<ProductFullName>High Cap S&amp;P 500 Indexed Account</ProductFullName>
+						<AdviserName>The Penn Insurance and Annuity Company</AdviserName>
+                        <BaseRate>8.38</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>XA</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="A">Dollar Cost Averaging</SubAccountType>
+						<ProductFullName>Uncapped S&amp;P 500 Indexed Account (Limited by Participation Rate)</ProductFullName>
+						<AdviserName>The Penn Insurance and Annuity Company</AdviserName>
+                        <BaseRate>8.38</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VI</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="R">Automatic Asset Rebalancing</SubAccountType>
+						<ProductFullName>Total Stock Market Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VM</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="R">Automatic Asset Rebalancing</SubAccountType>
+						<ProductFullName>Total Bond Market Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VL</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="R">Automatic Asset Rebalancing</SubAccountType>
+						<ProductFullName>Mid-Cap Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VN</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="R">Automatic Asset Rebalancing</SubAccountType>
+						<ProductFullName>Global Bond Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VO</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="R">Automatic Asset Rebalancing</SubAccountType>
+						<ProductFullName>Total International Stock Market Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VJ</ProductCode>
+                        <AllocPercent>75</AllocPercent>
+                        <SubAccountType tc="R">Automatic Asset Rebalancing</SubAccountType>
+						<ProductFullName>Equity Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VT</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="R">Automatic Asset Rebalancing</SubAccountType>
+						<ProductFullName>Conservative Allocation</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VW</ProductCode>
+                        <AllocPercent>25</AllocPercent>
+                        <SubAccountType tc="R">Automatic Asset Rebalancing</SubAccountType>
+						<ProductFullName>Moderate Allocation</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VY</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="R">Automatic Asset Rebalancing</SubAccountType>
+						<ProductFullName>Balanced</ProductFullName>
+						<AdviserName>Wellington Management Company LLP</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WG</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="R">Automatic Asset Rebalancing</SubAccountType>
+						<ProductFullName>Capital Growth</ProductFullName>
+						<AdviserName>PRIMECAP Management Company</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WD</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="R">Automatic Asset Rebalancing</SubAccountType>
+						<ProductFullName>Diversified Value</ProductFullName>
+						<AdviserName>Hotchkis and Wiley Capital Management, LLC, Aristotle Capital Management, LLC and Harris Associates L.P.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WF</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="R">Automatic Asset Rebalancing</SubAccountType>
+						<ProductFullName>Equity Income</ProductFullName>
+						<AdviserName>Wellington Management Company LLP and The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WI</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="R">Automatic Asset Rebalancing</SubAccountType>
+						<ProductFullName>Growth</ProductFullName>
+						<AdviserName>Wellington Management Company LLP</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WB</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="R">Automatic Asset Rebalancing</SubAccountType>
+						<ProductFullName>High Yield Bond</ProductFullName>
+						<AdviserName>Wellington Management Company LLP and The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WJ</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="R">Automatic Asset Rebalancing</SubAccountType>
+						<ProductFullName>International</ProductFullName>
+						<AdviserName>Baillie Gi&#64256;ord Overseas Ltd. and Schroder Investment Management North America Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WC</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="R">Automatic Asset Rebalancing</SubAccountType>
+						<ProductFullName>Real Estate Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WE</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="R">Automatic Asset Rebalancing</SubAccountType>
+						<ProductFullName>Small Company Growth</ProductFullName>
+						<AdviserName>ArrowMark Colorado Holdings LLC and The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VI</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>Total Stock Market Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VM</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>Total Bond Market Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VL</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>Mid-Cap Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VN</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>Global Bond Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VO</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>Total International Stock Market Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VJ</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>Equity Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VT</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>Conservative Allocation</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VW</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>Moderate Allocation</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VY</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>Balanced</ProductFullName>
+						<AdviserName>Wellington Management Company LLP</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WG</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>Capital Growth</ProductFullName>
+						<AdviserName>PRIMECAP Management Company</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WD</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>Diversified Value</ProductFullName>
+						<AdviserName>Hotchkis and Wiley Capital Management, LLC, Aristotle Capital Management, LLC and Harris Associates L.P.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WF</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>Equity Income</ProductFullName>
+						<AdviserName>Wellington Management Company LLP and The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WI</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>Growth</ProductFullName>
+						<AdviserName>Wellington Management Company LLP</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WB</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>High Yield Bond</ProductFullName>
+						<AdviserName>Wellington Management Company LLP and The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WJ</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>International</ProductFullName>
+						<AdviserName>Baillie Gi&#64256;ord Overseas Ltd. and Schroder Investment Management North America Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WC</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>Real Estate Index</ProductFullName>
+						<AdviserName>The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>WE</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>Small Company Growth</ProductFullName>
+						<AdviserName>ArrowMark Colorado Holdings LLC and The Vanguard Group, Inc.</AdviserName>
+                        <BaseRate>8.00</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>VF</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>Short-Term Fixed Account</ProductFullName>
+						<AdviserName>The Penn Insurance and Annuity Company</AdviserName>
+                        <BaseRate>2.25</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>F1</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>Traditional Fixed Account</ProductFullName>
+						<AdviserName>The Penn Insurance and Annuity Company</AdviserName>
+                        <BaseRate>3.50</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>SA</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>Classic 0% Floor S&amp;P 500 Indexed Account</ProductFullName>
+						<AdviserName>The Penn Insurance and Annuity Company</AdviserName>
+                        <BaseRate>8.38</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>UA</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>High Cap S&amp;P 500 Indexed Account</ProductFullName>
+						<AdviserName>The Penn Insurance and Annuity Company</AdviserName>
+                        <BaseRate>8.38</BaseRate>
+                    </SubAccount>
+					<SubAccount>
+                        <ProductCode>XA</ProductCode>
+                        <AllocPercent>0</AllocPercent>
+                        <SubAccountType tc="C">Monthly Deduction</SubAccountType>
+						<ProductFullName>Uncapped S&amp;P 500 Indexed Account (Limited by Participation Rate)</ProductFullName>
+						<AdviserName>The Penn Insurance and Annuity Company</AdviserName>
+                        <BaseRate>8.38</BaseRate>
+                    </SubAccount>
+				</Investment>
+				<Attachment id="Holding_1_Attachment_1">
+                    <AttachmentBasicType tc="2">Image - This attachment contains only an image</AttachmentBasicType>
+                    <Description>ILLUSTRATION_CLIENT</Description>
+                    <AttachmentType tc="1">Document</AttachmentType>
+                    <MimeTypeTC tc="17">application/pdf</MimeTypeTC>
+                    <TransferEncodingTypeTC tc="4">Base64</TransferEncodingTypeTC>
+                    <ImageType tc="4">PDF</ImageType>
+                    <AttachmentLocation tc="1">Inline Data</AttachmentLocation>
+                </Attachment>
+            </Holding>
+            <Party id="Insured_1">
+                <PartyTypeCode tc="1">Person</PartyTypeCode>
+                <Person>
+                    <FirstName></FirstName>
+                    <LastName></LastName>
+                    <Gender tc="2">F</Gender>
+                    <BirthDate>1953-04-13</BirthDate>
+					<Age>53</Age>
+                    <OLifEExtension VendorCode="123" ExtensionCode="Person">
+                        <PersonExtension>
+                            <RateClassAppliedFor>1012305008</RateClassAppliedFor>
+							<ExecType>Executive</ExecType>
+                        </PersonExtension>
+                    </OLifEExtension>
+                </Person>
+            </Party>
+            <Party id="Agency_1">
+                <PartyTypeCode tc="2">Organization</PartyTypeCode>
+                <Organization />
+                <Producer>
+                    <CarrierAppointment id="CarrierAppointment_Agency_1">
+                        <CompanyProducerID />
+                    </CarrierAppointment>
+                </Producer>
+            </Party>
+            <Party id="Producer_1">
+                <PartyTypeCode tc="1">Person</PartyTypeCode>
+                <Person>
+                    <FirstName></FirstName>
+                    <LastName></LastName>
+                </Person>
+                <Producer>
+                    <CarrierAppointment id="CarrierAppointment_Producer_1">
+                        <CompanyProducerID />
+                    </CarrierAppointment>
+                </Producer>
+                <EMailAddress id="Producer_1_Email">
+                    <EMailType tc="3">Carrier's Email Address</EMailType>
+                    <AddrLine />
+                </EMailAddress>
+            </Party>
+            <Party id="Owner_1">
+                <PartyTypeCode tc="2">Organization</PartyTypeCode>
+                <FullName>XYZ Corporation</FullName>
+                <Organization>
+                    <OrgForm tc="5">Public Corporation</OrgForm>
+                    <DBA>XYZ Corporation</DBA>
+                </Organization>
+            </Party>
+            <Relation id="Producer_1_Holding_Relation" OriginatingObjectID="Holding_1" RelatedObjectID="Producer_1">
+                <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+                <RelatedObjectType tc="6">Party</RelatedObjectType>
+                <RelationRoleCode tc="37">Primary Writing Agent</RelationRoleCode>
+            </Relation>
+            <Relation id="Producer_1_Writing_Agency_Relation" OriginatingObjectID="Producer_1" RelatedObjectID="Agency_1">
+                <OriginatingObjectType tc="6">Party</OriginatingObjectType>
+                <RelatedObjectType tc="6">Party</RelatedObjectType>
+                <RelationRoleCode tc="121">Agency</RelationRoleCode>
+            </Relation>
+            <Relation id="Insured_1_Relation" OriginatingObjectID="Holding_1" RelatedObjectID="Insured_1">
+                <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+                <RelatedObjectType tc="6">Party</RelatedObjectType>
+                <RelationRoleCode tc="32">Insured</RelationRoleCode>
+            </Relation>
+            <Relation id="Owner_1_Relation" OriginatingObjectID="Holding_1" RelatedObjectID="Owner_1">
+                <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+                <RelatedObjectType tc="6">Party</RelatedObjectType>
+                <RelationRoleCode tc="8">Owner</RelationRoleCode>
+            </Relation>
+        </OLifE>
+    </TXLifeRequest>
+</TXLife>

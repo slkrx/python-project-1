@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TXLife xmlns="http://ACORD.org/Standards/Life/2">
+    <TXLifeRequest>
+        <TransRefGUID>1629cc97-93d5-4f4a-beb7-a68e96b84d92</TransRefGUID>
+        <TransType tc="191">Generic Data Transfer Transaction</TransType>
+        <TransSubType tc="1012319101">Illustration Application Data Transfer Transaction</TransSubType>
+        <TransExeDate>[[TransExeDate]]</TransExeDate>
+        <TransExeTime>[[TransExeTime]]</TransExeTime>
+        <OLifE>
+            <SourceInfo>
+                <SourceInfoName>WELIS</SourceInfoName>
+                <SourceInfoDescription>ILLUSTRATION_APPLICATION_DATA</SourceInfoDescription>
+            </SourceInfo>
+            <Holding id="Holding_1">
+                <HoldingTypeCode tc="2">Policy</HoldingTypeCode>
+                <Policy id="Policy_1">
+                    <ProductType tc="5">Indexed Universal Life</ProductType>
+                    <ProductCode>IUL2022-GP</ProductCode>
+                    <CarrierCode>02</CarrierCode>
+                    <PlanName>Accumulation Indexed Universal Life</PlanName>
+                    <EffDate>2025-07-24</EffDate>
+                    <PaymentMode tc="1">Annual</PaymentMode>
+                    <PaymentAmt>5700</PaymentAmt>
+                    <PaymentMethod tc="2">Regular Billing</PaymentMethod>
+                    <IssueType tc="3">Guaranteed Issue</IssueType>
+                    <Life>
+                        <QualPlanType tc="1">Non-Qualified</QualPlanType>
+                        <InitialPremAmt>5700</InitialPremAmt>
+                        <TargetPremAmt>5227.5</TargetPremAmt>
+                        <Coverage id="Coverage_1">
+                            <PlanName>Accumulation Indexed Universal Life</PlanName>
+                            <ProductCode>IUL2022-GP</ProductCode>
+                            <IndicatorCode tc="1">Base</IndicatorCode>
+                            <DeathBenefitOptType tc="1">Level (DB = Face)</DeathBenefitOptType>
+                            <CurrentAmt>500000</CurrentAmt>
+                            <CovOption id="CovOption_1" LifeParticipantRefID="Coverage_1_LifeParticipant_1">
+                                <PlanName>Overloan Protection Benefit Rider</PlanName>
+                                <ProductCode>OLP</ProductCode>
+                            </CovOption>
+                            <LifeParticipant id="Coverage_1_LifeParticipant_1" PartyID="Insured_1">
+                                <ParticipantName>Jonathan Mark Little</ParticipantName>
+                                <LifeParticipantRoleCode tc="1">Primary Insured</LifeParticipantRoleCode>
+                                <IssueGender tc="1">Male</IssueGender>
+                                <SmokerStat tc="1">Never used tobacco</SmokerStat>
+                            </LifeParticipant>
+                            <OLifEExtension VendorCode="123" ExtensionCode="Coverage">
+                                <CoverageExtension>
+                                    <UnisexInd tc="0">False</UnisexInd>
+                                </CoverageExtension>
+                            </OLifEExtension>
+                        </Coverage>
+                        <Coverage id="Coverage_2">
+                            <PlanName>Supplemental Term Insurance Rider</PlanName>
+                            <ProductCode>ITR</ProductCode>
+                            <IndicatorCode tc="2">Rider</IndicatorCode>
+                            <CurrentAmt>500000</CurrentAmt>
+                            <LifeParticipant id="Coverage_2_LifeParticipant_1" PartyID="Insured_1">
+                                <ParticipantName>Jonathan Mark Little</ParticipantName>
+                                <LifeParticipantRoleCode tc="1">Primary Insured</LifeParticipantRoleCode>
+                                <IssueGender tc="1">Male</IssueGender>
+                            </LifeParticipant>
+                        </Coverage>
+                        <Coverage id="Inherent_Rider_1">
+                            <PlanName>Supplemental Exchange Rider</PlanName>
+                            <ProductCode>SEAR</ProductCode>
+                            <IndicatorCode tc="2">Rider</IndicatorCode>
+                            <CurrentAmt>0</CurrentAmt>
+                            <LifeParticipant id="Inherent_Rider_1_LifeParticipant_1" PartyID="Insured_1">
+                                <ParticipantName>Jonathan Mark Little</ParticipantName>
+                                <LifeParticipantRoleCode tc="1">Primary Insured</LifeParticipantRoleCode>
+                                <IssueGender tc="1">Male</IssueGender>
+                            </LifeParticipant>
+                        </Coverage>
+                        <LifeUSA>
+                            <Exchange1035Ind tc="0">False</Exchange1035Ind>
+                            <DefLifeInsMethod tc="4">DEFRA Guideline Premium Test</DefLifeInsMethod>
+                            <MECInd>false</MECInd>
+                            <GuidelineAnnPrem>10587.48</GuidelineAnnPrem>
+                            <GuidelineSinglePrem>155049.41</GuidelineSinglePrem>
+                            <SevenPayPrem>48134.13</SevenPayPrem>
+                            <OLifEExtension VendorCode="123" ExtensionCode="LifeUSA">
+                                <LifeUSAExtension DataRep="Full">
+                                    <Rate77027Pay>2.0000</Rate77027Pay>
+                                    <Rate7702GSP>4.0000</Rate7702GSP>
+                                    <Rate7702GLP>2.0000</Rate7702GLP>
+                                </LifeUSAExtension>
+                            </OLifEExtension>
+                        </LifeUSA>
+                    </Life>
+                    <ApplicationInfo>
+                        <ApplicationJurisdiction tc="45">Pennsylvania</ApplicationJurisdiction>
+                        <ReplacementInd tc="0">False</ReplacementInd>
+                        <OLifEExtension VendorCode="123" ExtensionCode="ApplicationInfo">
+                            <ApplicationInfoExtension>
+                                <SalesConceptsCC>
+                                    <SalesConceptsTC tc="1012300001">Ledger</SalesConceptsTC>
+                                </SalesConceptsCC>
+                                <TotalInitCovAmt>1000000</TotalInitCovAmt>
+                                <ApplicationPIN></ApplicationPIN>
+                                <IllustrationUniqueID>[[CaseID]]</IllustrationUniqueID>
+                                <IllustrationRunDate>2025-07-24</IllustrationRunDate>
+                            </ApplicationInfoExtension>
+                        </OLifEExtension>
+                    </ApplicationInfo>
+                    <OLifEExtension VendorCode="123" ExtensionCode="Policy">
+                        <PolicyExtension>
+                            <BillingOption tc="3">Mandatory</BillingOption>
+                            <NumberOfMonths>012</NumberOfMonths>
+                            <PolicyUWAmount>1000000</PolicyUWAmount>
+                            <MinPremiumInitialAmt>475</MinPremiumInitialAmt>
+                            <IllusMinPremiumInitialAmt>475</IllusMinPremiumInitialAmt>
+                            <StateReplacementInfo>
+                                <AR_Insurer></AR_Insurer>
+                                <AR_ProductType></AR_ProductType>
+                                <AR_ProductName></AR_ProductName>
+                                <AR_ProposedPremium></AR_ProposedPremium>
+                                <AR_AnnualConsideration></AR_AnnualConsideration>
+                                <AR_CurrentCV></AR_CurrentCV>
+                                <AR_CurrentSV></AR_CurrentSV>
+                                <AR_Face></AR_Face>
+                                <AR_CurrInt></AR_CurrInt>
+                                <AR_GuarMinAccum></AR_GuarMinAccum>
+                                <AR_SurrChgPeriod></AR_SurrChgPeriod>
+                                <AR_FreeWithdrawals></AR_FreeWithdrawals>
+                                <WA_After></WA_After>
+                                <WA_HowLong></WA_HowLong>
+                                <WA_HowMuch></WA_HowMuch>
+                                <WA_Rate></WA_Rate>
+                                <WA_Limit></WA_Limit>
+                                <WA_SurrChg></WA_SurrChg>
+                                <WA_DeathBen></WA_DeathBen>
+                                <WY_SurrCharges></WY_SurrCharges>
+                            </StateReplacementInfo>
+                            <PlanID>P001499</PlanID>
+                        </PolicyExtension>
+                    </OLifEExtension>
+                </Policy>
+                <Investment>
+                    <SubAccount>
+                        <ProductCode>WA</ProductCode>
+                        <AllocPercent>100</AllocPercent>
+                        <SubAccountType tc="P">Premium Allocation</SubAccountType>
+                        <BaseRate>6.45</BaseRate>
+                    </SubAccount>
+                </Investment>
+                <Attachment id="Holding_1_Attachment_1">
+                    <AttachmentBasicType tc="2">Image - This attachment contains only an image</AttachmentBasicType>
+                    <Description>ILLUSTRATION_CLIENT</Description>
+                    <AttachmentType tc="1">Document</AttachmentType>
+                    <MimeTypeTC tc="17">application/pdf</MimeTypeTC>
+                    <TransferEncodingTypeTC tc="4">Base64</TransferEncodingTypeTC>
+                    <ImageType tc="4">PDF</ImageType>
+                    <AttachmentLocation tc="1">Inline Data</AttachmentLocation>
+                </Attachment>
+            </Holding>
+            <Party id="Insured_1">
+                <PartyTypeCode tc="1">Person</PartyTypeCode>
+                <Person>
+                    <FirstName>Jonathan</FirstName>
+                    <MiddleName>Mark</MiddleName>
+                    <LastName>Little</LastName>
+                    <Gender tc="1">Male</Gender>
+                    <BirthDate>2002-09-15</BirthDate>
+                    <Age>20</Age>
+                    <OLifEExtension VendorCode="123" ExtensionCode="Person">
+                        <PersonExtension>
+                            <RateClassAppliedFor>1012305007</RateClassAppliedFor>
+                            <ExecType>Non-Executive</ExecType>
+                        </PersonExtension>
+                    </OLifEExtension>
+                </Person>
+            </Party>
+            <Party id="Agency_1">
+                <PartyTypeCode tc="2">Organization</PartyTypeCode>
+                <Organization />
+                <Producer>
+                    <CarrierAppointment id="CarrierAppointment_Agency_1">
+                        <CompanyProducerID></CompanyProducerID>
+                    </CarrierAppointment>
+                </Producer>
+            </Party>
+            <Party id="Producer_1">
+                <PartyTypeCode tc="1">Person</PartyTypeCode>
+                <Person>
+                    <FirstName></FirstName>
+                    <LastName></LastName>
+                </Person>
+                <Producer>
+                    <CarrierAppointment id="CarrierAppointment_Producer_1">
+                        <CompanyProducerID></CompanyProducerID>
+                    </CarrierAppointment>
+                </Producer>
+                <EMailAddress id="Producer_1_Email">
+                    <EMailType tc="3">Carrier's Email Address</EMailType>
+                    <AddrLine></AddrLine>
+                </EMailAddress>
+            </Party>
+            <Party id="Owner_1">
+                <PartyTypeCode tc="2">Organization</PartyTypeCode>
+                <FullName>Alphabet</FullName>
+                <Organization>
+                    <OrgForm tc="5">Public Corporation</OrgForm>
+                    <DBA>Alphabet</DBA>
+                </Organization>
+            </Party>
+            <Relation id="Producer_1_Holding_Relation" OriginatingObjectID="Holding_1" RelatedObjectID="Producer_1">
+                <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+                <RelatedObjectType tc="6">Party</RelatedObjectType>
+                <RelationRoleCode tc="37">Primary Writing Agent</RelationRoleCode>
+            </Relation>
+            <Relation id="Producer_1_Writing_Agency_Relation" OriginatingObjectID="Producer_1" RelatedObjectID="Agency_1">
+                <OriginatingObjectType tc="6">Party</OriginatingObjectType>
+                <RelatedObjectType tc="6">Party</RelatedObjectType>
+                <RelationRoleCode tc="121">Agency</RelationRoleCode>
+            </Relation>
+            <Relation id="Insured_1_Relation" OriginatingObjectID="Holding_1" RelatedObjectID="Insured_1">
+                <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+                <RelatedObjectType tc="6">Party</RelatedObjectType>
+                <RelationRoleCode tc="32">Insured</RelationRoleCode>
+            </Relation>
+            <Relation id="Owner_1_Relation" OriginatingObjectID="Holding_1" RelatedObjectID="Owner_1">
+                <OriginatingObjectType tc="4">Holding</OriginatingObjectType>
+                <RelatedObjectType tc="6">Party</RelatedObjectType>
+                <RelationRoleCode tc="8">Owner</RelationRoleCode>
+            </Relation>
+        </OLifE>
+    </TXLifeRequest>
+</TXLife>

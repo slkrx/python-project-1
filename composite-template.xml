@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TXLife xmlns="http://ACORD.org/Standards/Life/2">
+    <TXLifeRequest>
+        <TransRefGUID>abab4c70-ad47-4432-9951-5f0a68bdd470</TransRefGUID>
+        <TransType tc="191">Generic Data Transfer Transaction</TransType>
+        <TransSubType tc="1012319101">Illustration Application Data Transfer Transaction</TransSubType>
+        <TransExeDate>[[TransExeDate]]</TransExeDate>
+        <TransExeTime>[[TransExeTime]]</TransExeTime>
+        <OLifE>
+            <SourceInfo>
+                <SourceInfoName>WELIS</SourceInfoName>
+                <SourceInfoDescription>COMPOSITE_ILLUSTRATION_APPLICATION_DATA</SourceInfoDescription>
+            </SourceInfo>
+            <Holding id="Holding_1">
+                <Policy id="Policy_1">
+                    <CarrierCode>02</CarrierCode>
+                    <GroupPolicy>
+                        <OLifEExtension VendorCode="123" ExtensionCode="GroupPolicyExtension">
+                            <GroupPlanType tc="1">COLI</GroupPlanType>
+                        </OLifEExtension>
+                    </GroupPolicy>
+                    <Life>
+                        <TargetPremAmt>77550.5</TargetPremAmt>
+                        <InitialPremAmt>78023</InitialPremAmt>
+                        <PremiumDepositFundAmount>0</PremiumDepositFundAmount>
+                        <LifeUSA>
+                            <GuidelineAnnPrem>104784.35</GuidelineAnnPrem>
+                            <GuidelineSinglePrem>1498155.59</GuidelineSinglePrem>
+                            <SevenPayPrem>356225.04</SevenPayPrem>
+                            <OLifEExtension VendorCode="123" ExtensionCode="LifeUSA">
+                                <LifeUSAExtension DataRep="Full">
+                                    <Rate77027Pay>2.0000</Rate77027Pay>
+                                    <Rate7702GSP>4.0000</Rate7702GSP>
+                                    <Rate7702GLP>2.0000</Rate7702GLP>
+                                </LifeUSAExtension>
+                            </OLifEExtension>
+                        </LifeUSA>
+                    </Life>
+                    <ApplicationInfo>
+                        <ApplicationJurisdiction tc="45">Pennsylvania</ApplicationJurisdiction>
+                        <OLifEExtension VendorCode="123" ExtensionCode="ApplicationInfo">
+                            <ApplicationInfoExtension>
+                                <IllustrationUniqueID></IllustrationUniqueID>
+                                <IllustrationRunDate></IllustrationRunDate>
+                                <IllustrationRunUserID></IllustrationRunUserID>
+                                <IllustrationRunUserFullName></IllustrationRunUserFullName>
+                            </ApplicationInfoExtension>
+                        </OLifEExtension>
+                    </ApplicationInfo>
+                    <OLifEExtension VendorCode="123" ExtensionCode="Policy">
+                        <PolicyExtension>
+                            <PlanID></PlanID>
+                        </PolicyExtension>
+                    </OLifEExtension>
+                </Policy>
+                <Attachment id="Holding_1_Attachment_1">
+                    <AttachmentBasicType tc="2">Image - This attachment contains only an image</AttachmentBasicType>
+                    <Description>ILLUSTRATION_CLIENT</Description>
+                    <AttachmentType tc="1">Document</AttachmentType>
+                    <MimeTypeTC tc="17">application/pdf</MimeTypeTC>
+                    <TransferEncodingTypeTC tc="4">Base64</TransferEncodingTypeTC>
+                    <ImageType tc="4">PDF</ImageType>
+                    <AttachmentLocation tc="1">Inline Data</AttachmentLocation>
+                </Attachment>
+            </Holding>
+            <Party id="Owner_1">
+                <FullName>Alphabet</FullName>
+                <OLifEExtension VendorCode="123" ExtensionCode="PartyExtension">
+                    <PartyExtension>
+                        <OwnerType tc="1">Business Entity</OwnerType>
+                    </PartyExtension>
+                </OLifEExtension>
+            </Party>
+        </OLifE>
+    </TXLifeRequest>
+</TXLife>
